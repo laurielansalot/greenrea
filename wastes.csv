@@ -2,5 +2,11 @@ id,name,aliases,notes,bin
 Aiguille (piquant/coupant),aiguille; scalpel;piquant;ciseaux,"Contenant rigide homologué, ne pas recapuchonner.",boite_a_aiguilles
 Compresses souillées,compresse;compresses,,,noire_DAOM
 Gants à usage unique,gants;gant,,,noire_DAOM
-sonde d'intubation, Intubation,,,noire_DAOM
-sonde nasogastrique,Nasogastrique,,,noire_DAOM
+Sonde d'intubation, Intubation,,,noire_DAOM
+Sonde nasogastrique,Nasogastrique,,,noire_DAOM
+Compresses imbibées de sang, compresse sang,,,jaune_DASRI
+Emballage de compresses,,,recyclage 
+Emballage de seringue,,,recyclage 
+Seringue vide,,,noire_DAOM
+Tubulure,,,noire_DAOM
+Protection souillée,,,noire_DAOM
