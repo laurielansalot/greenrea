@@ -2,24 +2,31 @@
   "bins": [
     {
       "id": "jaune_DASRI",
-      "label": "Jaune — DASRI",
+      "label": "Jaune (DASRI)",
+      "hex": "#fff7cc",
+      "text_hex": "#111111",
+      "notes": "Déchets d’Activités de Soins à Risques Infectieux."
+    },
+    {
+      "id": "bac_rigide_jaune_DASRI",
+      "label": "Jaune - Bac Rigide (DASRI)",
       "hex": "#fff7cc",
       "text_hex": "#111111",
       "notes": "Déchets d’Activités de Soins à Risques Infectieux."
     },
     {
       "id": "noire_DAOM",
-      "label": "Noir DAOM",
+      "label": "Noir (DAOM)",
       "hex": "#e5e7eb",
       "text_hex": "#111111",
       "notes": ""
     },
     {
-      "id": "boite_a_aiguilles",
+      "id": "boite_a_aiguilles_DASRI",
       "label": "Jaune — Boîte à aiguilles (DASRI)",
       "hex": "#ffef99",
       "text_hex": "#111111",
-      "notes": ""
+      "notes": "Déchets d’Activités de Soins à Risques Infectieux."
     },
     {
       "id": "recyclage",
