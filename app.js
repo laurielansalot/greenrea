@@ -72,14 +72,17 @@ function buildIndex(rows) {
 }
 
 function cosineSim(vecA, vecB) {
+  if (!vecA || !vecB || !vecA.map || !vecB.map) return 0;
   let sum = 0;
   const a = vecA.map, b = vecB.map;
   for (const [t, w] of a.entries()) {
     const v = b.get(t);
-    if (v) sum += w*v;
+    if (v) sum += w * v;
   }
-  return sum / (vecA.norm * vecB.norm);
+  const denom = (vecA.norm || 1) * (vecB.norm || 1);
+  return denom ? (sum / denom) : 0;
 }
+
 
 function makeQueryVector(qTokens, idf) {
   const tf = new Map();
@@ -108,15 +111,21 @@ async function loadAll() {
       fetch('wastes.csv').then(r => r.text()),
       fetch('bins.config.json').then(r => r.json())
     ]);
-    const rows = parseCSV(csvText);
+
+    // Parse CSV et attache les bacs
+    const rowsRaw = parseCSV(csvText);
     const binsById = {};
     for (const b of binsJson.bins) binsById[b.id] = b;
-    const withBins = attachBins(rows, binsById);
-    const index = buildIndex(withBins);
-    // store globally
-    window.__DATA__ = { rows: withBins, index, binsById };
+    const rowsWithBins = attachBins(rowsRaw, binsById);
+
+    // Construire l’index : renvoie docs enrichis (_vec, _tri…)
+    const index = buildIndex(rowsWithBins);
+
+    // Utiliser les docs enrichis comme rows (et pas rowsRaw !)
+    window.__DATA__ = { rows: index.docs, index, binsById };
+
     $empty.textContent = 'Commence à taper pour voir des suggestions.';
-    renderTop(withBins.slice(0, 5));
+    renderTop(index.docs.slice(0, 5));
   } catch (e) {
     console.error(e);
     $empty.textContent = 'Erreur de chargement des données.';
@@ -163,13 +172,14 @@ function search(q) {
 
   // score = 0.7*cosineTFIDF + 0.3*trigramJaccard on hay
   const scored = rows.map(d => {
-    const cos = cosineSim(qVec, d._vec);
-    const tri = jaccard(qTri, d._tri);
-    // small bonus if exact word exists in name or aliases
-    const bonus = d.name.toLowerCase().includes(qNorm) || (d.aliases||'').toLowerCase().includes(qNorm) ? 0.1 : 0;
-    const score = 0.7*cos + 0.3*tri + bonus;
+    const cos = cosineSim(qVec, d._vec || { map: new Map(), norm: 1 });
+    const tri = jaccard(qTri, d._tri || new Set());
+    const aliasText = (d.aliases || '').toLowerCase();
+    const bonus = d.name.toLowerCase().includes(qNorm) || aliasText.includes(qNorm) ? 0.1 : 0;
+    const score = 0.7 * cos + 0.3 * tri + bonus;
     return { item: d, score };
-  }).sort((a,b)=> b.score - a.score);
+  }).sort((a, b) => b.score - a.score);
+
 
   // Optionally filter low scores
   const hideLow = $onlyKnown && $onlyKnown.checked;
