@@ -9,17 +9,17 @@
     },
     {
       "id": "noire_DAOM",
-      "label": "Noir — Ordures ménagères/banales",
+      "label": "Noir DAOM",
       "hex": "#e5e7eb",
       "text_hex": "#111111",
-      "notes": "Selon protocole local. Si souillé biologiquement → DASRI."
+      "notes": ""
     },
     {
       "id": "boite_a_aiguilles",
       "label": "Jaune — Boîte à aiguilles (DASRI)",
       "hex": "#ffef99",
       "text_hex": "#111111",
-      "notes": "Contenant rigide homologué. Ne pas recapuchonner."
+      "notes": ""
     },
     {
       "id": "recyclage",
