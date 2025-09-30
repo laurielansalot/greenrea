@@ -164,6 +164,11 @@ function search(q) {
   const data = window.__DATA__;
   if (!data) return [];
   const { rows, index } = data;
+  if (q == "") {
+    return rows.map(d => {
+      return { item: d, score };
+    });
+  }
   const qNorm = norm(q);
   if (!qNorm) return [];
   const qTokens = tokenize(qNorm);
