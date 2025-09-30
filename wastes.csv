@@ -1,6 +1,6 @@
 id,name,aliases,notes,bin
-needle,Aiguille (piquant/coupant),aiguille;seringue;piquant;sharps,"Contenant rigide homologué, ne pas recapuchonner.",boite_a_aiguilles
-compress,Compresses souillées,compresse;compresses;pansement souillé,Déchets à risques infectieux.,dasri_jaune
-glove,Gants à usage unique (non souillés),gants;gant,Selon protocole local. Si souillés biologiquement → DASRI.,noir_omb
-intubation_probe,Sonde d’intubation,sonde intubation;probe incubateur;sonde,Vérifier si réutilisable/équipement biomédical. Suivre procédure interne.,dasri_jaune
-sonde nasogastrique,Nasogastrique,,, noire_DAOM
+Aiguille (piquant/coupant),aiguille; scalpel;piquant;ciseaux,"Contenant rigide homologué, ne pas recapuchonner.",boite_a_aiguilles
+Compresses souillées,compresse;compresses,,,noire_DAOM
+Gants à usage unique,gants;gant,,,noire_DAOM
+sonde d'intubation, Intubation,,,noire_DAOM
+sonde nasogastrique,Nasogastrique,,,noire_DAOM
