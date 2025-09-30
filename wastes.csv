@@ -11,17 +11,17 @@ Tubulure,tubulures,MS10,noire_DAOM
 Tubulure seringue électrique,tubulure,tubulure seringue élec,noire_DAOM
 Protection souillée,change complet,protec,noire_DAOM
 absorbex,abso,absorbex souillé,noire_DAOM
-Gant de toilette jetable,gants de toilette,gant,gant jetable,gants jetables,,,noire_DAOM
-champs de soins steriles,Champ de soin,champs de soins,,,noire_DAOM
-compresse,Compresse utilisée,compresses utilisées,compresses,,,noire_DAOM
-Pansement,pansements,pansements souillés,pansement souillé,,,noire_DAOM
-Pansement vvc,,,noire_DAOM
-pansement désilet,pansement ktd,pansement kt de dialyse,,,noire_DAOM
-pansement kta,,,noire_DAOM
-support stomie,socle stomie,,,noire_DAOM
-poche stomie,,,noire_DAOM
-flowcollector,,,noire_DAOM
-cassette de drain thoracique,cassette,cassette drain tho,,,,bac jaune rigide_DASRI
-redon,redons,,,bac jaune rigide_DASRI
-drain,drains,,,bac jaune rigide_DASRI
-lame digestive,lames,lame,lames digestives,,,noire_DAOM
+Gant de toilette jetable,gant,gant jetable,noire_DAOM
+champs de soins steriles,Champ de soin,champs de soins,noire_DAOM
+compresse,Compresse utilisée,compresses,noire_DAOM
+Pansement,pansements souillés,pansement souillé,noire_DAOM
+Pansement vvc,pansement voie veineuse centrale,tégaderm VVC,noire_DAOM
+pansement désilet,pansement ktd,tégaderm désilet,noire_DAOM
+pansement kta,pansement cathéter artériel,tégaderm KTA,noire_DAOM
+support stomie,socle stomie,attache stomie,noire_DAOM
+poche stomie,stomie,collecteur stomie,noire_DAOM
+flowcollector,poche accordéon,collecteur de flux,noire_DAOM
+cassette de drain thoracique,cassette,cassette drain tho,bac jaune rigide_DASRI
+redon,redons,drainage redon,bac jaune rigide_DASRI
+drain,drains,drainage drain,bac jaune rigide_DASRI
+lame digestive,lames,lame,noire_DAOM
