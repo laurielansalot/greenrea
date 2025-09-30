@@ -2,11 +2,31 @@ id,name,aliases,bin
 Compresses souillées,compresse sales,compresses sales,noire_DAOM
 Gants à usage unique,gants,gant,noire_DAOM
 Sonde d'intubation,Intubation,IOT,noire_DAOM
+sonde d'aspiration,sonde d'aspi,sondes d'aspirations,noire_DAOM
 Sonde nasogastrique,Nasogastrique,SNG,noire_DAOM
 Compresses imbibées de sang,compresse sang,compresses sang,jaune_DASRI
 Emballage de compresses,papier compresse,emballage,recyclage 
 Emballage de seringue,papier seringue,emballage,recyclage 
+emballage set de dyalise, emballage set dialyse,emballage,recyclage
+emballage cathéter centraux,emballage VVC,emballage,recyclage
+emballage cathéter artériel,emballage KTA,emballage,recyclage
+emballage tubulure,papier tubulure,emballage,recyclage
+emballage,emballage Dispositif médicaux,emballage DM,recyclage
 Seringue vide,seringue non utilisée,seringue,noire_DAOM
+seringue luer lock vide,luer lock vide, luerlock vide,noire_DAOM
+seringue luer lock non vidée,luer lock pleine,luer lock non vide,jaune_DASRI
+seringue à gavage,seringue violette,gavage,noire_DAOM
+tubulure entérale,tubulure sondalys,tubulure alimentation,noire_DAOM
+tubulure parentérale,tubulure olimel,tubulure alimentation,noire_DAOM
+tubulures changement de rampe,tubulures rampe,rampe,noire_DAOM
+poche réhydratation <300ml,réhy vide,poche réhydratation vide,noire_DAOM
+cartouche de bicarbonate HDI,cartouche bicard,cartouche bicard HDI,noire_DAOM
+bouchon,bouchon bleu,obturateur,noire_DAOM
+poche PSL vide,culot sang vide,PSL vide,noire_DAOM
+poche PSL pleine ou incomplête,PSL plein,jaune_DASRI
+aiguille,piquant,trocard,boîte à aiguille_DASRI
+poche de recueil d'aspiration <300ml, recueil aspi <300ml, aspi <300ml,noire_DAOM
+sonde urinaire,sonde vésicale,SV,noire_DAOM
 Tubulure,tubulures,MS10,noire_DAOM
 Tubulure seringue électrique,tubulure,tubulure seringue élec,noire_DAOM
 Protection souillée,change complet,protec,noire_DAOM
@@ -25,3 +45,6 @@ cassette de drain thoracique,cassette,cassette drain tho,bac jaune rigide_DASRI
 redon,redons,drainage redon,bac jaune rigide_DASRI
 drain,drains,drainage drain,bac jaune rigide_DASRI
 lame digestive,lames,lame,noire_DAOM
+dosette sérum physiologique pleine,sérum phy pleine,dosette sérum phy pleine,noire_DAOM
+dosette sérum physiologique vide,sérum phy vide,dosette sérum phy vide,noire_DAOM
+circuit dialyse,circuit HDI,tubulure dialyse,bac rigide jaune_DASRI
