@@ -1,8 +1,8 @@
 id,name,aliases,bin
 Compresses souillées,compresse sales,compresses sales,noire_DAOM
-Gants à usage unique,gants;gant,,,noire_DAOM
-Sonde d'intubation, Intubation,IOT,,,noire_DAOM
-Sonde nasogastrique,Nasogastrique,SNG,,,noire_DAOM
+Gants à usage unique,gants,gant,noire_DAOM
+Sonde d'intubation,Intubation,IOT,noire_DAOM
+Sonde nasogastrique,Nasogastrique,SNG,noire_DAOM
 Compresses imbibées de sang,compresse sang,compresses sang,,,jaune_DASRI
 Emballage de compresses,,,recyclage 
 Emballage de seringue,,,recyclage 
