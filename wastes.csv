@@ -3,14 +3,14 @@ Compresses souillées,compresse sales,compresses sales,noire_DAOM
 Gants à usage unique,gants,gant,noire_DAOM
 Sonde d'intubation,Intubation,IOT,noire_DAOM
 Sonde nasogastrique,Nasogastrique,SNG,noire_DAOM
-Compresses imbibées de sang,compresse sang,compresses sang,,,jaune_DASRI
-Emballage de compresses,,,recyclage 
-Emballage de seringue,,,recyclage 
-Seringue vide,,,noire_DAOM
-Tubulure,MS10,,,noire_DAOM
-Tubulure seringue électrique,,,noire_DAOM
-Protection souillée,change complet,,,noire_DAOM
-absorbex,abso,,,noire_DAOM
+Compresses imbibées de sang,compresse sang,compresses sang,jaune_DASRI
+Emballage de compresses,papier compresse,emballage,recyclage 
+Emballage de seringue,papier seringue,emballage,recyclage 
+Seringue vide,seringue non utilisée,seringue,noire_DAOM
+Tubulure,tubulures,MS10,noire_DAOM
+Tubulure seringue électrique,tubulure,tubulure seringue élec,noire_DAOM
+Protection souillée,change complet,protec,noire_DAOM
+absorbex,abso,absorbex souillé,noire_DAOM
 Gant de toilette jetable,gants de toilette,gant,gant jetable,gants jetables,,,noire_DAOM
 champs de soins steriles,Champ de soin,champs de soins,,,noire_DAOM
 compresse,Compresse utilisée,compresses utilisées,compresses,,,noire_DAOM
