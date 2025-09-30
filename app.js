@@ -166,7 +166,7 @@ function search(q) {
   const { rows, index } = data;
   if (q == "") {
     return rows.map(d => {
-      return { item: d, score };
+      return { item: d, score: 0};
     });
   }
   const qNorm = norm(q);
