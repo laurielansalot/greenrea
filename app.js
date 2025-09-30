@@ -163,6 +163,9 @@ function renderCard(it) {
 function search(q) {
   const data = window.__DATA__;
   if (!data) return [];
+
+  if (q == "") return rows;
+  
   const { rows, index } = data;
   const qNorm = norm(q);
   if (!qNorm) return [];
