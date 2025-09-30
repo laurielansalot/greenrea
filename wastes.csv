@@ -1,55 +1,53 @@
 id,name,aliases,bin
-Compresses souillées,compresse sale,,noire_DAOM
-Gants à usage unique,gants,gant,noire_DAOM
-Sonde d'intubation,Intubation,IOT,noire_DAOM
-sonde d'aspiration,sonde d'aspi,,noire_DAOM
-Sonde nasogastrique,Nasogastrique,SNG,noire_DAOM
-Compresses imbibées de sang,compresse sang,,jaune_DASRI
-Emballage de compresses,papier compresse,,recyclage 
-Emballage de seringue,papier seringue,,recyclage 
-emballage set de dyalise, emballage set dialyse,,recyclage
-emballage cathéter centraux,emballage VVC,,recyclage
-emballage cathéter artériel,emballage KTA,,recyclage
-emballage tubulure,papier tubulure,,recyclage
-emballage Dispositif médicaux,emballage DM,,recyclage
-Seringue vide,seringue non utilisée,,noire_DAOM
-seringue luer lock vide,luer lock vide, luerlock vide,noire_DAOM
-seringue luer lock non vidée,luer lock pleine,,jaune_DASRI
-seringue à gavage,seringue violette,gavage,noire_DAOM
-tubulure entérale,tubulure sondalys,tubulure alimentation,noire_DAOM
-tubulure parentérale,tubulure olimel,tubulure alimentation,noire_DAOM
-tubulures changement de rampe,tubulures rampe,rampe,noire_DAOM
+compresses,Compresses souillées,compresses sales;compresses utilisees,noire_DAOM
+gants,Gants à usage unique,gant;gant de toilette jetable;gant jetable,noire_DAOM
+sonde_intubation,Sonde d'intubation,intubation;IOT,noire_DAOM
+sonde_aspiration,Sonde d'aspiration,sonde d'aspi,noire_DAOM
+sonde_nasogastrique,Sonde nasogastrique,nasogastrique;SNG,noire_DAOM
+compresses_sang,Compresses imbibées de sang,compresse sang,jaune_DASRI
+emballage_compresses,Emballage de compresses,papier compresse,recyclage 
+emballage_seringue,Emballage de seringue,papier seringue,recyclage 
+emballage_dyalise,Emballage set de dyalise,emballage set dialyse,recyclage
+emballage_catheter_centraux,Emballage de cathéter centraux,emballage VVC,recyclage
+emballage_catheter_arteriel,Emballage cathéter artériel,emballage KTA,recyclage
+emballage_tubulure,Emballage tubulure,papier tubulure,recyclage
+emballage_dispositifs_medicaux,Emballage de dispositifs médicaux,emballage DM,recyclage
+seringue_vide,Seringue vide,seringue non utilisée,noire_DAOM
+seringue_lock_vide,Seringue luer lock vide,luer lock vide;luerlock vide,noire_DAOM
+seringue_lock_pleine,Seringue luer lock pleine,luer lock non vidée,jaune_DASRI
+seringue_gavage,Seringue à gavage,seringue violette;gavage,noire_DAOM
+tubulure_enterale,Tubulure entérale,tubulure sondalys;tubulure alimentation,noire_DAOM
+tubulure_parenterale,Tubulure parentérale,tubulure olimel;tubulure alimentation,noire_DAOM
+tubulure_rampe,Tubulures changement de rampe,tubulures rampe;rampe,noire_DAOM
 poche réhydratation <300ml,réhy vide,poche réhydratation vide,noire_DAOM
 cartouche de bicarbonate HDI,cartouche bicard,cartouche bicard HDI,noire_DAOM
-bouchon,bouchon bleu,obturateur,noire_DAOM
-poche PSL vide,culot sang vide,PSL vide,noire_DAOM
-poche PSL pleine ou incomplête,PSL plein,culot plein,jaune_DASRI
-aiguille,piquant,trocard,boite_aiguille_DASRI
-poche de recueil d'aspiration <300ml, recueil aspi <300ml, aspi <300ml,noire_DAOM
-sonde urinaire,sonde vésicale,SV,noire_DAOM
-Tubulure,MS10,,noire_DAOM
-Tubulure seringue électrique,tubulure,tubulure seringue élec,noire_DAOM
-Protection souillée,change complet,protec,noire_DAOM
-absorbex,abso,absorbex souillé,noire_DAOM
-Gant de toilette jetable,gant,gant jetable,noire_DAOM
-champs de soins steriles,Champ de soin,,noire_DAOM
-compresse,Compresse utilisée,,noire_DAOM
-Pansement,pansement souillé,,noire_DAOM
-Pansement vvc,pansement voie veineuse centrale,tégaderm VVC,noire_DAOM
-pansement désilet,pansement ktd,tégaderm désilet,noire_DAOM
-pansement kta,pansement cathéter artériel,tégaderm KTA,noire_DAOM
-support stomie,socle stomie,,noire_DAOM
-poche stomie,stomie,collecteur stomie,noire_DAOM
-flowcollector,poche accordéon,collecteur de flux,noire_DAOM
-cassette de drain thoracique,cassette,cassette drain tho,bac_jaune_rigide_DASRI
-redon,,,jaune_DASRI
-drain,,,jaune_DASRI
-lame digestive,lame,,noire_DAOM
-dosette sérum physiologique pleine,sérum phy pleine,dosette sérum phy pleine,noire_DAOM
-dosette sérum physiologique vide,sérum phy vide,dosette sérum phy vide,noire_DAOM
-circuit dialyse,circuit HDI,tubulure dialyse,bac_jaune_rigide_DASRI
-EPI,gant,,noire_DAOM
-EPI,tablier,,noire_DAOM
-EPI,masque,FFP2,noire_DAOM
-EPI,calot,,noire_DAOM
-EPI,casaque,surblouse,noire_DAOM
+bouchon_bleu,Bouchon,bouchon bleu;obturateur,noire_DAOM
+poche_psl_vide,Poche PSL vide,culot sang vide;PSL vide,noire_DAOM
+poche_psl_pleine,Poche PSL pleine ou incomplête,psl plein;psl non vidée;culot plein,jaune_DASRI
+aiguille,Aiguille;piquant;trocard,boite_aiguille_DASRI
+poche_recueil_aspiration,Poche de recueil d'aspiration <300ml,recueil aspi <300ml;aspi <300ml,noire_DAOM
+sonde_urinaire,Sonde urinaire,sonde vésicale;SV,noire_DAOM
+tubulure_ms10,Tubulure MS10,MS10,noire_DAOM
+tubulure_seringue_electrique,Tubulure seringue électrique,tubulure;tubulure seringue élec,noire_DAOM
+protection_souilee,Protection souillée,change complet;protec,noire_DAOM
+absorbex,Absorbex,abso;absorbex souillé,noire_DAOM
+champs_soin,Champs de soins steriles,champ de soin,noire_DAOM
+pansement_souille,Pansement souillé,pansement,noire_DAOM
+pansement_vvc,Pansement VVC,pansement voie veineuse centrale;tégaderm VVC,noire_DAOM
+pansement_desilet,Pansement désilet,pansement ktd;tégaderm désilet,noire_DAOM
+pansement_kta,Pansement KTA,pansement cathéter artériel;tégaderm KTA,noire_DAOM
+support_stomie,Support stomie,socle stomie,noire_DAOM
+poche_stomie,Poche stomie,stomie;collecteur stomie,noire_DAOM
+poche_accordeon,Flowcollector,poche accordéon;collecteur de flux,noire_DAOM
+casset_drain_thoracique,Cassette de drain thoracique,cassette;cassette drain tho,bac_jaune_rigide_DASRI
+redon,Redon,,jaune_DASRI
+drain,Drain,,jaune_DASRI
+lame_digestive,Lame digestive,lame,noire_DAOM
+dosette_serum_physiologique_pleine,Dosette sérum physiologique pleine,sérum phy pleine;dosette sérum phy pleine,noire_DAOM
+dosette_serum_physiologique_vide,Dosette sérum physiologique vide,sérum phy vide;dosette sérum phy vide,noire_DAOM
+circuit_dialyse,Circuit dialyse,circuit HDI;tubulure dialyse,bac_jaune_rigide_DASRI
+epi_gant,EPI gant,,noire_DAOM
+epi_tablier,EPI tablier,,noire_DAOM
+epi_masque,EPI masque,FFP2,noire_DAOM
+epi_calot,EPI calot,,noire_DAOM
+epi_casque,EPI casaque,surblouse,noire_DAOM
