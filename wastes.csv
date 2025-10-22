@@ -5,8 +5,8 @@ sonde_intubation,Sonde d'intubation,intubation;IOT,noire_DAOM
 sonde_aspiration,Sonde d'aspiration,sonde d'aspi,noire_DAOM
 sonde_nasogastrique,Sonde nasogastrique,nasogastrique;SNG,noire_DAOM
 compresses_sang,Compresses imbibées de sang,compresse sang,jaune_DASRI
-emballage_compresses,Emballage de compresses,papier compresse,recyclage 
-emballage_seringue,Emballage de seringue,papier seringue,recyclage 
+emballage_compresses,Emballage de compresses,papier compresse,recyclage
+emballage_seringue,Emballage de seringue,papier seringue,recyclage
 emballage_dyalise,Emballage set de dyalise,emballage set dialyse,recyclage
 emballage_catheter_centraux,Emballage de cathéter centraux,emballage VVC,recyclage
 emballage_catheter_arteriel,Emballage cathéter artériel,emballage KTA,recyclage
