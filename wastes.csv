@@ -1,6 +1,6 @@
 id,name,aliases,bin
 compresses,Compresses souillées,compresses sales;compresses utilisees,noire_DAOM
-gants,Gants à usage unique,gant;gant de toilette jetable;gant jetable,noire_DAOM
+gant_de_toilette_jetable,gants à usage unique,gants,gant;gant jetable,noire_DAOM
 sonde_intubation,Sonde d'intubation,intubation;IOT,noire_DAOM
 sonde_aspiration,Sonde d'aspiration,sonde d'aspi,noire_DAOM
 sonde_nasogastrique,Sonde nasogastrique,nasogastrique;SNG,noire_DAOM
@@ -46,8 +46,8 @@ lame_digestive,Lame digestive,lame,noire_DAOM
 dosette_serum_physiologique_pleine,Dosette sérum physiologique pleine,sérum phy pleine;dosette sérum phy pleine,noire_DAOM
 dosette_serum_physiologique_vide,Dosette sérum physiologique vide,sérum phy vide;dosette sérum phy vide,noire_DAOM
 circuit_dialyse,Circuit dialyse,circuit HDI;tubulure dialyse,bac_jaune_rigide_DASRI
-epi_gant,EPI gant,,noire_DAOM
-epi_tablier,EPI tablier,,noire_DAOM
-epi_masque,EPI masque,FFP2,noire_DAOM
-epi_calot,EPI calot,,noire_DAOM
-epi_casque,EPI casaque,surblouse,noire_DAOM
+epi_gant,EPI gant,gants;gant,noire_DAOM
+epi_tablier,EPI tablier,tablier,noire_DAOM
+epi_masque,EPI masque,FFP2;masuqe,noire_DAOM
+epi_calot,EPI calot,calot,noire_DAOM
+epi_casque,EPI casaque,surblouse;casaque,noire_DAOM
