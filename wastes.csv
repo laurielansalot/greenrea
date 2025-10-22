@@ -1,6 +1,6 @@
 id,name,aliases,bin
 compresses,Compresses souillées,compresses sales;compresses utilisees,noire_DAOM
-gant_de_toilette_jetable,gants à usage unique,gants,gant;gant jetable,noire_DAOM
+gant_de_toilette_jetable,gants à usage unique,gant,gant jetable,noire_DAOM
 sonde_intubation,Sonde d'intubation,intubation;IOT,noire_DAOM
 sonde_aspiration,Sonde d'aspiration,sonde d'aspi,noire_DAOM
 sonde_nasogastrique,Sonde nasogastrique,nasogastrique;SNG,noire_DAOM
