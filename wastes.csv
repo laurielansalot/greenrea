@@ -39,13 +39,13 @@ pansement_kta,Pansement KTA,pansement cathéter artériel;tégaderm KTA,noire_DA
 support_stomie,Support stomie,socle stomie,noire_DAOM
 poche_stomie,Poche stomie,stomie;collecteur stomie,noire_DAOM
 poche_accordeon,Flowcollector,poche accordéon;collecteur de flux,noire_DAOM
-casset_drain_thoracique,Cassette de drain thoracique,cassette;cassette drain tho,bac_jaune_rigide_DASRI
+casset_drain_thoracique,Cassette de drain thoracique,cassette;cassette drain tho,bac_rigide_jaune_DASRI
 redon,Redon,,jaune_DASRI
 drain,Drain,,jaune_DASRI
 lame_digestive,Lame digestive,lame,noire_DAOM
 dosette_serum_physiologique_pleine,Dosette sérum physiologique pleine,sérum phy pleine;dosette sérum phy pleine,noire_DAOM
 dosette_serum_physiologique_vide,Dosette sérum physiologique vide,sérum phy vide;dosette sérum phy vide,noire_DAOM
-circuit_dialyse,Circuit dialyse,circuit HDI;tubulure dialyse,bac_jaune_rigide_DASRI
+circuit_dialyse,Circuit dialyse,circuit HDI;tubulure dialyse,bac_rigide_jaune_DASRI
 epi_gant,EPI gant,gants;gant,noire_DAOM
 epi_tablier,EPI tablier,tablier,noire_DAOM
 epi_masque,EPI masque,FFP2;masuqe,noire_DAOM
