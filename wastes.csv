@@ -19,7 +19,7 @@ seringue_gavage,Seringue à gavage,seringue violette;gavage,noire_DAOM
 tubulure_enterale,Tubulure entérale,tubulure sondalys;tubulure alimentation,noire_DAOM
 tubulure_parenterale,Tubulure parentérale,tubulure olimel;tubulure alimentation,noire_DAOM
 tubulure_rampe,Tubulures changement de rampe,tubulures rampe;rampe,noire_DAOM
-poche_rehydratation_vide,Poche réhydratation <300ml,réhy vide;poche réhydratation vide,noire_DAOM
+poche_rehydratation_vide,Poche réhydratation <300ml,réhy vide;poche réhydratation vide;pochon,noire_DAOM
 cartouche_bicarbonate_hdi,Cartouche de bicarbonate HDI,cartouche bicard;cartouche bicard HDI,noire_DAOM
 bouchon_bleu,Bouchon,bouchon bleu;obturateur,noire_DAOM
 poche_psl_vide,Poche PSL vide,culot sang vide;PSL vide,noire_DAOM
@@ -49,5 +49,6 @@ circuit_dialyse,Circuit dialyse,circuit HDI;tubulure dialyse,bac_rigide_jaune_DA
 epi_gant,EPI gant,gants;gant,noire_DAOM
 epi_tablier,EPI tablier,tablier,noire_DAOM
 epi_masque,EPI masque,FFP2;masuqe,noire_DAOM
-epi_calot,EPI calot,calot,noire_DAOM
+epi_calot,EPI calot,calot;charlotte,noire_DAOM
 epi_casque,EPI casaque,surblouse;casaque,noire_DAOM
+barette_électrodes,support électrodes,plastique électrodes,recyclage
